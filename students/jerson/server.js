@@ -4,7 +4,7 @@ const fs = require('fs');
 const app = express();
 
 const student = process.env.STUDENT_NAME || "Jerson";
-const hood = process.env.BARRIO || "San Antonio";
+const hood = process.env.BARRIO || "Melendez";
 
 app.get('/', (req, res) => {
   const msg = `Hola, yo soy ${student} y vivo en ${hood}`;
